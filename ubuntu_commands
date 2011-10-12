@@ -1,0 +1,12 @@
+# This command sets the Ubuntu Lockscreen background image to the same image as the desktop background image 
+sudo gconftool-2 --direct --config-source xml:readwrite:/etc/gconf/gconf.xml.defaults --set /desktop/gnome/background/picture_filename --type string `gconftool-2 --get /desktop/gnome/background/picture_filename`
+
+# This command sets the Ubuntu Lockscreen background image to user selected image 
+sudo gconftool-2 --direct --config-source xml:readwrite:/etc/gconf/gconf.xml.defaults --set /desktop/gnome/background/picture_filename --type string <path to image file>
+
+# To list keys in gconf use 
+# gconftool-2 -R <path> 
+# f.ex:
+gconftool-2 -R /desktop/gnome/background
+
+# There is also a GUI tool gconf-editor or the ubuntu package ubuntu-tweak
