@@ -10,3 +10,10 @@ sudo gconftool-2 --direct --config-source xml:readwrite:/etc/gconf/gconf.xml.def
 gconftool-2 -R /desktop/gnome/background
 
 # There is also a GUI tool gconf-editor or the ubuntu package ubuntu-tweak
+
+
+# Konvertere filer
+iconv
+
+# Encoding problemer, se tegn
+od - dump files in octal and other formats
