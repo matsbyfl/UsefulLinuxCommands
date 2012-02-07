@@ -11,14 +11,12 @@ gconftool-2 -R /desktop/gnome/background
 
 # There is also a GUI tool gconf-editor or the ubuntu package ubuntu-tweak
 
-<<<<<<< HEAD
 # Create new launchers in ubuntu
 gnome-desktop-item-edit ~/Desktop/ --create-new
-=======
+
 
 # Konvertere filer
 iconv
 
 # Encoding problemer, se tegn
 od - dump files in octal and other formats
->>>>>>> 445b0ab54d54fb62d8a2ee22adc281ab0e86c252
