@@ -10,3 +10,6 @@ sudo gconftool-2 --direct --config-source xml:readwrite:/etc/gconf/gconf.xml.def
 gconftool-2 -R /desktop/gnome/background
 
 # There is also a GUI tool gconf-editor or the ubuntu package ubuntu-tweak
+
+# Create new launchers in ubuntu
+gnome-desktop-item-edit ~/Desktop/ --create-new
