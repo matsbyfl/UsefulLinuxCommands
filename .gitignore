@@ -1,0 +1,65 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
+
+.classpath
+.settings*
+.project*
+eclipse*
+tmp*
+#       new file:   yabe/.settings/org.eclipse.jdt.core.prefs
+#       new file:   yabe/app/controllers/Application.java
+#       new file:   yabe/app/views/Application/index.html
+#       new file:   yabe/app/views/errors/404.html
+#       new file:   yabe/app/views/errors/500.html
+#       new file:   yabe/app/views/main.html
+#       new file:   yabe/conf/application.conf
+#       new file:   yabe/conf/messages
+#       new file:   yabe/conf/routes
+#       new file:   yabe/eclipse/.classpath
+#       new file:   yabe/eclipse/.project
+#       new file:   yabe/eclipse/.settings/org.eclipse.core.resources.prefs
+#       new file:   yabe/eclipse/.settings/org.eclipse.jdt.core.prefs
+#       new file:   yabe/eclipse/Connect JPDA to Yet Another Blog Engine.launch
+#       new file:   yabe/eclipse/Test Yet Another Blog Engine.launch
+#       new file:   yabe/eclipse/Yet Another Blog Engine.launch
+#       new file:   yabe/public/images/favicon.png
+#       new file:   yabe/public/javascripts/jquery-1.4.2.min.js
+#       new file:   yabe/public/stylesheets/main.css
+#       new file:   yabe/test/Application.test.html
+#       new file:   yabe/test/ApplicationTest.java
+#       new file:   yabe/test/BasicTest.java
+#       new file:   yabe/test/data.yml
+#       new file:   yabe/tmp/bytecode/DEV/DocViewerPlugin
+
