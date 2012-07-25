@@ -1,0 +1,35 @@
+
+vxccxc ggg ffff
+
+# Navigation 
+w	move cursor to beginning of word
+e	move cursor to end of word
+$	go to end of line
+0	go to beginning of line
+
+# Misc commands
+SHIFT zz	Save and exit
+u		undo
+
+# Edit
+x	 delete character
+dw 	 delete word
+d4w	 delete 4 words
+d$	 delete to end of line
+dd	 delete line
+p	paste
+r	replace
+rt	replace next character with t
+c	change
+ce/cw	change one word
+c2w	change two words
+c$/c0	change words to end/beginning of line
+
+# selection
+SHIFT V		select text
+v		select chars
+v3w		select 3 words
+
+
+# Commandline stuff
+:set wildmenu
