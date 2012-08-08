@@ -20,3 +20,7 @@ iconv
 
 # Encoding problemer, se tegn
 od - dump files in octal and other formats
+
+# When having trouble enabling wifi
+sudi rfkill show all
+sudo rfkill unblock all
