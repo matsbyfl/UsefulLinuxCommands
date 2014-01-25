@@ -1,5 +1,4 @@
 
-
 # Navigation 
 w	move cursor to beginning of word
 e	move cursor to end of word
@@ -23,6 +22,11 @@ c	change
 ce/cw	change one word
 c2w	change two words
 c$/c0	change words to end/beginning of line
+ctrl n word completion
+
+#search
+* search for word at cursor location
+
 
 # selection
 SHIFT V		select text
@@ -32,6 +36,7 @@ v3w		select 3 words
 
 # Commandline stuff
 :set wildmenu
+:set hlsearch Search highlighting
 
 # Show line numbers
 :set number 
